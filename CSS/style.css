@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cardbox {
+    width: 250px;
+    height: 250px;
+    background-color: beige;
+    text-align: center;
+    margin: 10px;
+    padding: 40px 30px;
+    border-radius: 12px 12px;
+    display: flex;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid beige;
+    text-decoration: none ;
+
+}
+
+.cardbox .box {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: black;
+    text-decoration: none;
+}
+
+.Startech {
+    width: 400px;
+    height: 450px;
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 40px 25px 40px 30px;
+    border-radius: 5px 5px;
+    display: flex;
+    display: inline-block;
+    text-decoration: none;
+}
+.Startech .point {
+    width: 120px;
+    height: 25px;
+    border: 300px;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: purple;
+    padding: 5px 5px;
+    border-radius: 0px 50px 50px 0px;
+}
+
+.Startech .content1 {
+font-size: 22px;
+color: black;
+border: 300px;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+
+}
+
+.Startech .price {
+    font-size: 25px;
+    color: red;
+    border: 300px;
+    padding: 20px 20px ;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.feature {
+    width: 600px ;
+    height: 500px;
+    background-image: url(../images/Pic0.jpg);
+    background-size: cover;
+    margin: 10px;
+    padding: 40px 40px ;
+    text-align: justify;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+}
+
+.feature h1 {
+    color: #66902B;
+    font-size:50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.feature h2 {
+    color: black;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+.feature p {
+    color :black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.features {
+    width: 600px ;
+    height: 500px;
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 40px 40px ;
+    text-align: justify;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+}
+
+.features h1 {
+    color: #66902B;
+    font-size:50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.features h2 {
+    color: black;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+.features p {
+    color :black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
